@@ -75,13 +75,14 @@ The model is compiled with:
 The following figure shows sample images from the dataset used for training and validation. This helps in visually understanding class characteristics, image quality, and variability before model training.
 
 <p align="center">
-  <img src="<img width="795" height="500" alt="image" src="https://github.com/user-attachments/assets/b97db3da-08c4-48d6-b6b8-4a223b2905f7" />
-" width="700"/>
+ <img width="795" height="500" alt="image" src="https://github.com/user-attachments/assets/75992f0c-f6a3-451e-bf55-4e1797674d05" />
 </p>
 
-The notebook also includes:
+<p align="center">
+  <img width="554" height="457" alt="image" src="https://github.com/user-attachments/assets/3d8d97ff-7284-442d-bf4b-1d838b7f7732" />
 
-* Class name extraction
+</p>
+
 * Class distribution analysis using `Counter`
 * Visualization of class imbalance using **Matplotlib** and **Seaborn**
 
@@ -107,9 +108,8 @@ Training and validation accuracy/loss are tracked over epochs.
 
 ## 📈 Results
 
-* Model summary is printed for inspection
-* Training history can be used to plot accuracy and loss curves
-* Validation performance gives an estimate of model generalization
+* The proposed CNN model was evaluated on an independent test dataset to assess its generalization capability. Quantitative evaluation shows that the model achieved a test accuracy of 78.79% with a corresponding test loss of 0.68, indicating effective learning of discriminative features from the input images.
+* Overall, these results demonstrate that the proposed CNN architecture, trained on 256×256 RGB images, provides reliable performance for three-class PLD classification. The achieved accuracy establishes a strong baseline and highlights the potential of deep learning–based approaches for automated plant disease detection. Further improvements can be achieved through data augmentation, deeper architectures, and transfer learning–based methods.n
 
 ---
 
